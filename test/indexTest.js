@@ -5,7 +5,7 @@ describe("Indedx", function () {
   it("app should return 64", function () {
     assert.equal(index(8, 8), 64);
   });
-  it("app should return 81", function () {
-    assert.equal(index(9, 9), 81);
+  it("app should return type integar", function () {
+    assert.typeOf(index(9, 9), "number");
   });
 });

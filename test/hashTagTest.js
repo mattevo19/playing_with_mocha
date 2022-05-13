@@ -11,4 +11,7 @@ describe("hastTagGen", function () {
   it("app should return false", function () {
     assert.equal(hashTagGen(""), false);
   });
+  it("app should return type string", function () {
+    assert.typeOf(hashTagGen("hello"), "string");
+  });
 });
